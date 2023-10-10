@@ -1,0 +1,923 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317585,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "67362008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic aneurysm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4061539,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16972009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital aneurysm of aorta",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 320646,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "12232008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Syphilitic aneurysm of aorta",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4049675,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233370007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic aneurysm repair",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740412,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0035T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of proximal or distal extension prosthesis for endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; initial extension (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42739901,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0001T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; modular bifurcated prosthesis (two docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740413,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0036T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of proximal or distal extension prosthesis for endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; each additional extension (List separately in addition to code for primary procedure) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42739902,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0002T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; aorto-uni-iliac or aorto-unifemoral prosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740410,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0033T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; involving coverage of left subclavian artery origin, initial endoprosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740411,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0034T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; not involving coverage of left subclavian artery origin, initial endoprosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740416,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0039T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection not involving coverage of left subclavian artery origin, initial endoprosthesis, radiological supervision and interpretation (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107574,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34802",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; using modular bifurcated prosthesis (1 docking limb) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107575,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34803",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; using modular bifurcated prosthesis (2 docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107581,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34813",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of femoral-femoral prosthetic graft during endovascular aortic aneurysm repair (List separately in addition to code for primary procedure)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4181152,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429679003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of thoracic aortic aneurysm with insertion of endovascular stent graft",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100974,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0079T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of visceral extension prosthesis for endovascular repair of abdominal aortic aneurysm involving visceral vessels, each visceral branch (List separately in addition to code for primary procedure) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100977,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0080T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of abdominal aortic aneurysm, pseudoaneurysm or dissection, abdominal aorta involving visceral vessels (superior mesenteric, celiac or renal), using fenestrated modular bifurcated prosthesis (two docking limbs), radiolo... (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100979,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0081T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of visceral extension prosthesis for endovascular repair of abdominal aortic aneurysm involving visceral vessels, each visceral branch, radiological supervision and interpretation (List separately in addition to code for primary ... (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816457,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9004F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm 6.0 cm or greater maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816456,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9003F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm 5.5 - 5.9 cm maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9001F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm less than 5.0 cm maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0078T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of abdominal aortic aneurysm, pseudoaneurysm or dissection, abdominal aorta involving visceral vessels (superior mesenteric, celiac or renal), using fenestrated modular bifurcated prosthesis (two docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS] Aortic aneurysm",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9203,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ER",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or ER visit",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 320739,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "308546005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Dissection of aorta",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SOS] Aortic dissection",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": false,
+              "CodesetId": 0,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ProcedureOccurrence": {
+              "ProcedureType": null,
+              "CorrelatedCriteria": null,
+              "CodesetId": 0,
+              "ProcedureSourceConcept": null,
+              "Quantity": null,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "ProcedureTypeExclude": false,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "Modifier": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"Observation": {
+              "ValueAsConcept": null,
+              "ObservationType": null,
+              "CorrelatedCriteria": null,
+              "ObservationTypeExclude": false,
+              "ValueAsString": null,
+              "CodesetId": 0,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "Unit": null,
+              "ObservationSourceConcept": null,
+              "VisitType": null,
+              "ValueAsNumber": null,
+              "Qualifier": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": false,
+              "CodesetId": 4,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          }
+        ],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no aortic aneurysm or dissection in last 365d",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 14,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": {
+                "CriteriaList": [{
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": null,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "EndWindow": {
+                    "UseEventEnd": true,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": null,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "Criteria": {"VisitOccurrence": {
+                    "OccurrenceEndDate": null,
+                    "VisitLength": null,
+                    "CorrelatedCriteria": null,
+                    "VisitSourceConcept": null,
+                    "CodesetId": 1,
+                    "VisitTypeExclude": false,
+                    "ProviderSpecialty": null,
+                    "Gender": null,
+                    "PlaceOfServiceLocation": null,
+                    "PlaceOfService": null,
+                    "VisitType": null,
+                    "First": null,
+                    "OccurrenceStartDate": null,
+                    "Age": null
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "CountColumn": null,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }],
+                "Type": "ALL",
+                "DemographicCriteriaList": [],
+                "Groups": [],
+                "Count": null
+              },
+              "ConditionTypeExclude": false,
+              "CodesetId": 0,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 14,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": {
+                "CriteriaList": [{
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": null,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "EndWindow": {
+                    "UseEventEnd": true,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": null,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "Criteria": {"VisitOccurrence": {
+                    "OccurrenceEndDate": null,
+                    "VisitLength": null,
+                    "CorrelatedCriteria": null,
+                    "VisitSourceConcept": null,
+                    "CodesetId": 1,
+                    "VisitTypeExclude": false,
+                    "ProviderSpecialty": null,
+                    "Gender": null,
+                    "PlaceOfServiceLocation": null,
+                    "PlaceOfService": null,
+                    "VisitType": null,
+                    "First": null,
+                    "OccurrenceStartDate": null,
+                    "Age": null
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "CountColumn": null,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }],
+                "Type": "ALL",
+                "DemographicCriteriaList": [],
+                "Groups": [],
+                "Count": null
+              },
+              "ConditionTypeExclude": false,
+              "CodesetId": 4,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }
+        ],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has diagnosis of aneurysm in hospital or emergency room visit",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "ConditionStatus": null,
+        "StopReason": null,
+        "Age": null
+      }},
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 0,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": null
+      }},
+      {"Observation": {
+        "ValueAsConcept": null,
+        "ObservationType": null,
+        "CorrelatedCriteria": null,
+        "ObservationTypeExclude": false,
+        "ValueAsString": null,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "Unit": null,
+        "ObservationSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": null,
+        "Qualifier": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Age": null
+      }},
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 4,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "ConditionStatus": null,
+        "StopReason": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

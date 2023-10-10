@@ -1,0 +1,1051 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or Inpatient/ER visit",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 81902,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "68566005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Urinary tract infectious disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SOS] Urinary tract infection",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798709,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721059",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefacetrile",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1796435,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25033",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefixime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798704,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721061",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19072255,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2182",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefmetazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008993,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700419",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefminox sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028286,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20485",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefodizime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19072857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2183",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefonicid",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1773402,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2184",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefoperazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028288,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20486",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceforanide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1774470,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2186",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotaxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1774932,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2187",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotetan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19051271,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2188",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotiam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1775741,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2189",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefoxitin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009045,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700471",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefpiramide sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1749008,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20489",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefpodoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1738366,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19552",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefprozil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700509",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefroxadine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19051345,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2190",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefsulodin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1776684,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2191",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftazidime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819502",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefteram pivoxil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008994,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700420",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ceftezole sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1749083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20492",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftibuten",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1777254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2192",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftizoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1777806,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2193",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftriaxone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1778162,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2194",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefuroxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1786621,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2231",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephalexin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19052683,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2233",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephaloridine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19086759,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2236",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephalothin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19086790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2238",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephapirin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1786842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2239",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephradine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009087,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700513",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "flomoxef sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1708100,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "28981",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "loracarbef",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19126622,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7069",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "moxalactam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1768849,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2176",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefaclor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1769535,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2177",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefadroxil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19070174,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2178",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefamandole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19070680,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2179",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefatrizine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798700,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721060",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefazedone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1771162,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2180",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefazolin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700508",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefbuperazone sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009044,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700470",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefcapene pivoxil hydrochloride hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1796458,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25037",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefdinir",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1747005,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83682",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefditoren",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028241,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20482",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefetamet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35129269,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4786537",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35160132,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4817111",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2035392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4934549",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Topical Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21132307,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP388743",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ceftazidime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40020954,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "377415",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefuroxime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS] cephalosporin systematic",
+      "id": 3
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 3,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 2,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has urinary tract infection on or in 7 day prior to exposure",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"VisitOccurrence": {
+            "OccurrenceEndDate": null,
+            "VisitLength": null,
+            "CorrelatedCriteria": null,
+            "VisitSourceConcept": null,
+            "CodesetId": 1,
+            "VisitTypeExclude": false,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "PlaceOfServiceLocation": null,
+            "PlaceOfService": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no hospitalization on or in 7 day prior to exposure",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 3,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
