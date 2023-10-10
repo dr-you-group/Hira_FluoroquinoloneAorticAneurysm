@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "quinolonehira6"
+		"find": "hirafqs"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "quinolonehira6"
+		"find": "hirafqs"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

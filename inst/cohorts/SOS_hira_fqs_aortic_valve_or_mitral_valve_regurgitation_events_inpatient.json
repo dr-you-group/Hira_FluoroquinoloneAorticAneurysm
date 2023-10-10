@@ -1,0 +1,1167 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317585,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "67362008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic aneurysm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4061539,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16972009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital aneurysm of aorta",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 320646,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "12232008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Syphilitic aneurysm of aorta",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4049675,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233370007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic aneurysm repair",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740412,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0035T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of proximal or distal extension prosthesis for endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; initial extension (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42739901,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0001T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; modular bifurcated prosthesis (two docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740413,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0036T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of proximal or distal extension prosthesis for endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; each additional extension (List separately in addition to code for primary procedure) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42739902,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0002T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; aorto-uni-iliac or aorto-unifemoral prosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740410,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0033T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; involving coverage of left subclavian artery origin, initial endoprosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740411,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0034T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection; not involving coverage of left subclavian artery origin, initial endoprosthesis (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42740416,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0039T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of descending thoracic aortic aneurysm, pseudoaneurysm or dissection not involving coverage of left subclavian artery origin, initial endoprosthesis, radiological supervision and interpretation (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107574,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34802",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; using modular bifurcated prosthesis (1 docking limb) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107575,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34803",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of infrarenal abdominal aortic aneurysm or dissection; using modular bifurcated prosthesis (2 docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2107581,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34813",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of femoral-femoral prosthetic graft during endovascular aortic aneurysm repair (List separately in addition to code for primary procedure)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4181152,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429679003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of thoracic aortic aneurysm with insertion of endovascular stent graft",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100974,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0079T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of visceral extension prosthesis for endovascular repair of abdominal aortic aneurysm involving visceral vessels, each visceral branch (List separately in addition to code for primary procedure) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100977,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0080T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of abdominal aortic aneurysm, pseudoaneurysm or dissection, abdominal aorta involving visceral vessels (superior mesenteric, celiac or renal), using fenestrated modular bifurcated prosthesis (two docking limbs), radiolo... (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100979,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0081T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Placement of visceral extension prosthesis for endovascular repair of abdominal aortic aneurysm involving visceral vessels, each visceral branch, radiological supervision and interpretation (List separately in addition to code for primary ... (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816457,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9004F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm 6.0 cm or greater maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816456,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9003F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm 5.5 - 5.9 cm maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44816454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9001F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Aortic aneurysm less than 5.0 cm maximum diameter on centerline formatted CT or minor diameter on axial formatted CT (NMA-No Measure Associated)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2100958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0078T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Endovascular repair of abdominal aortic aneurysm, pseudoaneurysm or dissection, abdominal aorta involving visceral vessels (superior mesenteric, celiac or renal), using fenestrated modular bifurcated prosthesis (two docking limbs) (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS] Aortic aneurysm",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9203,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ER",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or ER visit",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 320739,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "308546005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Dissection of aorta",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SOS] Aortic dissection",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4103295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25569003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular tachycardia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4111700,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195083004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular fibrillation and flutter",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4089462,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "251175005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular premature complex",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4317150,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "95281009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sudden cardiac death",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321042,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410429000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312437,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "267036007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Dyspnea",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 253321,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70407001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Stridor",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4120088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233927002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac arrest with successful resuscitation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS hira_fqs] serious arrhythmia",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4055484,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19620000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rhegmatogenous retinal detachment",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 374640,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38599001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Serous retinal detachment",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 375249,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34711008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Traction detachment of retina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 378414,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42059000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Retinal detachment",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4055484,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19620000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rhegmatogenous retinal detachment",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4097368,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26786002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Scleral buckling",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4294683,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75732000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Vitrectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4334593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231766008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumatic retinopexy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS hira_fqs] retinal detachment",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 319843,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11851006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mitral valve disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 320416,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194732001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Diseases of mitral and aortic valves",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4108234,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195002007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Multiple valve disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443962,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48724000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mitral valve regurgitation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4252872,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "409712001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mitral valve prolapse",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4110937,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194727002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Non-rheumatic mitral valve stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45769461,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "708121009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Non-rheumatic mitral valve disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4189343,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60573004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic valve stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315564,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60234000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic valve regurgitation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4111099,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194987006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic valve stenosis with insufficiency",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314054,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8722008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic valve disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443962,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48724000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mitral valve regurgitation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4189343,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60573004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aortic valve stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS hira_fqs] aortic valve or mitral valve regurgitation",
+      "id": 7
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 4,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no aortic dissection in last 365d",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 14,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": null,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": null,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": false
+                },
+                "Criteria": {"VisitOccurrence": {
+                  "OccurrenceEndDate": null,
+                  "VisitLength": null,
+                  "CorrelatedCriteria": null,
+                  "VisitSourceConcept": null,
+                  "CodesetId": 1,
+                  "VisitTypeExclude": false,
+                  "ProviderSpecialty": null,
+                  "Gender": null,
+                  "PlaceOfServiceLocation": null,
+                  "PlaceOfService": null,
+                  "VisitType": null,
+                  "First": null,
+                  "OccurrenceStartDate": null,
+                  "Age": null
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "CountColumn": null,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": [],
+              "Count": null
+            },
+            "ConditionTypeExclude": false,
+            "CodesetId": 7,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has diagnosis of dissection in hospital or emergency room visit",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 7,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

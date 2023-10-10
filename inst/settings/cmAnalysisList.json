@@ -187,19 +187,19 @@
     "matchOnPsAndCovariates": false,
     "analysisId": 1,
     "createPsArgs": {
-      "stopOnError": true,
+      "stopOnError": false,
       "excludeCovariateIds": [],
       "prior": {
         "variance": [1],
-        "useCrossValidation": true,
-        "priorType": "laplace",
+        "useCrossValidation": false,
+        "priorType": "none",
         "exclude": [0],
         "neighborhood": null,
         "attr_class": "cyclopsPrior",
         "forceIntercept": false,
         "graph": null
       },
-      "errorOnHighCorrelation": true,
+      "errorOnHighCorrelation": false,
       "control": {
         "maxIterations": 1000,
         "autoSearch": true,
@@ -471,19 +471,19 @@
     "matchOnPsAndCovariates": false,
     "analysisId": 2,
     "createPsArgs": {
-      "stopOnError": true,
+      "stopOnError": false,
       "excludeCovariateIds": [],
       "prior": {
         "variance": [1],
-        "useCrossValidation": true,
-        "priorType": "laplace",
+        "useCrossValidation": false,
+        "priorType": "none",
         "exclude": [0],
         "neighborhood": null,
         "attr_class": "cyclopsPrior",
         "forceIntercept": false,
         "graph": null
       },
-      "errorOnHighCorrelation": true,
+      "errorOnHighCorrelation": false,
       "control": {
         "maxIterations": 1000,
         "autoSearch": true,
@@ -755,19 +755,19 @@
     "matchOnPsAndCovariates": false,
     "analysisId": 3,
     "createPsArgs": {
-      "stopOnError": true,
+      "stopOnError": false,
       "excludeCovariateIds": [],
       "prior": {
         "variance": [1],
-        "useCrossValidation": true,
-        "priorType": "laplace",
+        "useCrossValidation": false,
+        "priorType": "none",
         "exclude": [0],
         "neighborhood": null,
         "attr_class": "cyclopsPrior",
         "forceIntercept": false,
         "graph": null
       },
-      "errorOnHighCorrelation": true,
+      "errorOnHighCorrelation": false,
       "control": {
         "maxIterations": 1000,
         "autoSearch": true,
@@ -1039,19 +1039,19 @@
     "matchOnPsAndCovariates": false,
     "analysisId": 4,
     "createPsArgs": {
-      "stopOnError": true,
+      "stopOnError": false,
       "excludeCovariateIds": [],
       "prior": {
         "variance": [1],
-        "useCrossValidation": true,
-        "priorType": "laplace",
+        "useCrossValidation": false,
+        "priorType": "none",
         "exclude": [0],
         "neighborhood": null,
         "attr_class": "cyclopsPrior",
         "forceIntercept": false,
         "graph": null
       },
-      "errorOnHighCorrelation": true,
+      "errorOnHighCorrelation": false,
       "control": {
         "maxIterations": 1000,
         "autoSearch": true,

@@ -194,10 +194,283 @@
       ]},
       "name": "[SOS] Sulfamethoxazole - trimethoprim systemic",
       "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1836433,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "198334",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602961,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01EE01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sulfamethoxazole and trimethoprim; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35413459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP1147044",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "5 ML Sulfamethoxazole 80 MG/ML / Trimethoprim 16 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40220484,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1809084",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 80 MG/ML / trimethoprim 16 MG/ML Injection",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2031815,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4930712",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "1 ML sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sos_fqs] tmp-smx",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1836433,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "198334",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602961,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01EE01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sulfamethoxazole and trimethoprim; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35413459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP1147044",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "5 ML Sulfamethoxazole 80 MG/ML / Trimethoprim 16 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40220484,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1809084",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 80 MG/ML / trimethoprim 16 MG/ML Injection",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2031815,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4930712",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "1 ML sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sos_fqs] tmp-smx1",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1836433,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "198334",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602961,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01EE01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sulfamethoxazole and trimethoprim; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35413459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP1147044",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "5 ML Sulfamethoxazole 80 MG/ML / Trimethoprim 16 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40220484,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1809084",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sulfamethoxazole 80 MG/ML / trimethoprim 16 MG/ML Injection",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2031815,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4930712",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "1 ML sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[SOS hira_fqs] tmp-smx",
+      "id": 7
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 4,
+    "DrugCodesetId": 7,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 0
@@ -310,7 +583,7 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "DrugSourceConcept": null,
-      "CodesetId": 4,
+      "CodesetId": 7,
       "DrugTypeExclude": false,
       "Quantity": null,
       "DrugType": null,

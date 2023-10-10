@@ -1,7 +1,10 @@
 atlasId,atlasName,cohortId,name
 616,[SOS Phenotype Devt] Fluoroquinolone systemic exposures with urinary tract infection,616,SOS_Phenotype_Devt_Fluoroquinolone_systemic_exposures_with_urinary_tract_infection
-787,[SOS Phenotype Devt] TMP SMX systemic exposures with urinary tract infection,787,SOS_Phenotype_Devt_TMP_SMX_systemic_exposures_with_urinary_tract_infection
+963,[SOS hira_fqs] TMP SMX systemic exposures with urinary tract infection,963,SOS_hira_fqs_TMP_SMX_systemic_exposures_with_urinary_tract_infection
 802,[SOS Phenotype devt] Aortic aneurysm events inpatient,802,SOS_Phenotype_devt_Aortic_aneurysm_events_inpatient
 803,[SOS Phenotype devt] Aortic dissection events inpatient,803,SOS_Phenotype_devt_Aortic_dissection_events_inpatient
 804,[SOS Phenotype devt] Aortic aneurysm or aortic dissection events inpatient_stacy,804,SOS_Phenotype_devt_Aortic_aneurysm_or_aortic_dissection_events_inpatient_stacy
-786,[SOS Phenotype Devt] Cephalosporin systemic exposures with urinary tract infection,786,SOS_Phenotype_Devt_Cephalosporin_systemic_exposures_with_urinary_tract_infection
+952,[SOS hira_fqs] retinal detachment events inpatient,952,SOS_hira_fqs_retinal_detachment_events_inpatient
+959,[SOS hira_fqs] aortic valve or mitral valve regurgitation events inpatient,959,SOS_hira_fqs_aortic_valve_or_mitral_valve_regurgitation_events_inpatient
+960,[SOS hira_fqs] serious arrhythmia events inpatient,960,SOS_hira_fqs_serious_arrhythmia_events_inpatient
+962,[SOS hira_fqs] Cephalosporin systemic exposures with urinary tract infection,962,SOS_hira_fqs_Cephalosporin_systemic_exposures_with_urinary_tract_infection
